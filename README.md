@@ -45,5 +45,3 @@ To make the Processing part and SuperCollider communicating, we decided to use t
 # Conclusions
 
 We have developed four examples of additive synthesis in SuperCollider which the user can play with a MIDI keyboard. These are communicating via OSC protocol with a GUI where the player can modify on the fly amplitude, attack and release parameters of the four synths in a independent fashion, with the result of complex, layered sounds with interesting textures. Of course, the code could be further developed, adding more parameters for the player to tweak, and also we can add a set of effects -like reverb, delay- in order to make the sound even more interesting\... the possibilities offered by this Computer Music environments are all to be discovered, all that remains is to explore them!
-=======
-# CMLS_HW3_GROUP5
