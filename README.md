@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Synthesizers
 
 Here we describe the synth algorithms and their parameters.
@@ -35,7 +34,7 @@ The fourth type of synth we implemented has been the Bleep synth. The frequency 
 
 We made a window with dimensions of 600px\*800px to accommodate all our content, and write two function returnX() and returnY() to return the percentage of window length. After a series of calculations and making drafts, it was determined that we can divide this window into four sections, and the distance between each section is four percent of the window height. The width of each control button is twenty percent of the window width (120px) and the height is fifteen percent of the window height (120px) so that we can ensure that each control button is the right size and is squarely round. The colour scheme is green in the main body and beige in the background, which makes the whole console vivid and lovely. After a number of debugging sessions, the specific parameters of each colour were finally determined. `knobColorBackground` = color(207,240,158), `knobColorForeground` = color(121,189,154), `knobColorActive` = color(168,219,168), `knobColorCaptionLabel` = color(59,134,134).
 
-![image](images/GUI part.png){width="8cm"}
+![image](images/GUI part.png)
 
 Figure 1: The GUI part
 
@@ -48,4 +47,3 @@ To make the Processing part and SuperCollider communicating, we decided to use t
 We have developed four examples of additive synthesis in SuperCollider which the user can play with a MIDI keyboard. These are communicating via OSC protocol with a GUI where the player can modify on the fly amplitude, attack and release parameters of the four synths in a independent fashion, with the result of complex, layered sounds with interesting textures. Of course, the code could be further developed, adding more parameters for the player to tweak, and also we can add a set of effects -like reverb, delay- in order to make the sound even more interesting\... the possibilities offered by this Computer Music environments are all to be discovered, all that remains is to explore them!
 =======
 # CMLS_HW3_GROUP5
->>>>>>> eb102a0746fe996ed4b2d600cd1a7a46ab0ec4a1
